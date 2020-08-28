@@ -8,7 +8,7 @@ class BaseModel<T> {
 
   setData(T data) => this.data = data;
 
-  get getException {
+  ServerError get getException {
     return _error;
   }
 }
